@@ -1,0 +1,299 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    font-family: cursive;
+    font-size: 20px;
+	width: 100%;
+}
+
+div{
+    display: block;
+}
+
+a:link, a:visited{
+    text-decoration:none;
+}
+
+#head{
+    background-color: #2f2f2f;
+}
+
+/* 导航栏 */
+#navbar{
+    margin: 0 auto;
+    padding: 30px;
+	width: 1200px;
+    height: 40px;
+}
+
+#navbar a{
+    color: white;
+}
+
+#bookBar_name{
+    font-size: 30px;
+    width: 20%;
+    float: left;
+}
+
+#bookBar_name span{
+    font-size: 20px;
+}
+
+#navigator{
+    padding-top: 8px;
+    margin-left: 8%;
+    width: 60%;
+    float: left;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#navbar_main li{
+    float: left;
+}
+
+#navbar_main li a{
+    padding: 40px;
+}
+
+#navbar .icon{
+    padding-top: 8px;
+	width: 10%;
+    float:left;
+}
+
+
+/* 内容页 */
+.content{
+	margin: 50px auto;
+	width: 1200px;
+	clear: both;
+}
+
+        .mid_content{
+        width: 1200px;
+        height: 178px;
+        margin: auto;
+            padding-top: 122px;
+    }
+.mid_title{
+    color: white;
+    text-align: center;
+}
+
+/* 登陆界面 */
+#login_page{
+    width: 308px;
+    margin: 40px auto;
+}
+
+.bookBar_symbol{
+    margin: 20px auto;
+    text-align: center
+}
+
+#login_title{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#login_main{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+#login{
+    padding: 10px;
+}
+
+#login .note{
+	color: red;
+}
+
+#login_username, #login_password{
+    background-color: floralwhite;
+    border-radius: 10px;
+    width: 248px;
+    height: 34px;
+    padding: 6px;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+#login_button{
+    font-size: 20px;
+    background-color: floralwhite;
+    margin-top: 10px;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 248px;
+    height: 30px;
+    display: inline;
+}
+
+#first_come{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 8px; 
+    margin-top: 10px;
+}
+
+#first_come span{
+    margin-left: 20px;
+}
+
+.label_link{
+	margin-left: 10px;
+    color: blue;
+}
+
+
+/* 注册界面 重置密码 个人主页 */
+#register_page, #profile_page, #reset_page{
+    width: 450px;
+}
+
+#register_page, .introduce, #reset_page{
+    margin: 50px auto;
+}
+
+#register_main, #profile_main, #reset_main{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 20px;
+    width: 350px;
+    padding: 10px;
+    border-style: solid;
+}
+
+.info_field{
+    background-color: floralwhite;
+    border-radius: 10px;
+    width: 248px;
+    height: 34px;
+    padding: 6px;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+.information{
+    margin: 20px auto;
+}
+
+.information .note{
+	color: red;
+}
+
+
+#register_button, #reset_button{
+    font-size: 20px;
+    background-color: floralwhite;
+    margin-top: 10px;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    display: inline;
+}
+
+
+/* 菜单、书单 */
+        .left_navbar{
+	text-align: center;
+    width: 100px;
+    height: auto;
+	margin: 100px 50px;
+	padding: 20px;
+	float: left;
+}
+
+.type{
+    margin-bottom: 100px;
+}
+
+.last{
+    margin-bottom: 25px;
+}
+
+.navBar_info{
+    margin: 5px;
+    margin-top : 20px;
+}
+
+#menu_main{
+    float: left;
+    width: 900px;
+    min-height: 600px;
+    margin: 100px auto;
+}
+
+.product_view{
+    width: 800px;
+}
+
+.product{
+    float: left;
+    margin: 20px 10px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.product_img{
+    margin: auto;
+	height: 150px;
+	width: 150px;
+}
+
+.product_info{
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+	height: 100px;
+	width: 150px;
+}
+
+        .product_name{
+            font-size: 30px;
+        }        
+        
+.product_intro{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.product_img img{
+    border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+
+#update_profile_button{
+	font-size: 20px;
+    background-color: floralwhite;
+    margin-top: 10px;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    display: inline;
+}
